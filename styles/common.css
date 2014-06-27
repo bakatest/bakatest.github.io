@@ -84,4 +84,27 @@ mark.note {
   background-color: transparent;
 }
 
+.shadowbox {
+  box-shadow: 0 0 30px rgba(0,0,0,.005), 0 20px 50px rgba(42,43,45,.6);
+}
+
+.touch-left {
+  position: absolute;
+  left: 0px;
+}
+
+.touch-top {
+  position: absolute;
+  top: 0px;
+}
+
+.touch-bottom {
+  position: absolute;
+  bottom: 0px;
+}
+
+.touch-right {
+  position: absolute;
+  right: 0px;
+}
 
