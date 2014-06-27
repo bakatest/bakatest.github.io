@@ -1,4 +1,12 @@
 
+.slide p, .slide ul, .slide blockquote+figcaption {
+  margin-bottom: 20px;
+}
+
+.slide blockquote {
+  margin-bottom: 50px;
+}
+
 header.caption a {
   color: #3C3D40;
   text-shadow: 0 1px 1px #8D8E90;
@@ -14,7 +22,15 @@ a {
   background: none;
 }
 
-.cover img {
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+img {
   max-width: 100%;
 }
 
@@ -38,3 +54,34 @@ a {
   padding: 12px 24px 0px;
   box-shadow: 0 0 30px rgba(0,0,0,.005), 0 20px 50px rgba(42,43,45,.6);
 }
+
+hr {
+  border-style: solid;
+  border-color: #DDD;
+  border-width: 1px;
+  border-top: none;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+mark {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+
+  border-radius: 5px;
+  background: #fafaa2;
+
+  padding: 3px 8px;
+}
+
+mark.important {
+  color: #FFF;
+  background-color: #C00;
+}
+
+mark.note {
+  color: #EEE;
+  background-color: transparent;
+}
+
+
