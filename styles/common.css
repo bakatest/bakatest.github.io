@@ -108,3 +108,11 @@ mark.note {
   right: 0px;
 }
 
+small {
+  font-size: 0.8em;
+}
+
+.figure-caption {
+  text-align: center;
+}
+
