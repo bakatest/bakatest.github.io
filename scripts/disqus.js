@@ -1,9 +1,9 @@
 
-var disqus_shortname = 'kirishow'; // forum shortname
+var disqus_shortname = 'bakatest'; // forum shortname
 
 var host = window.location.host;
 if (window.location.hostname == 'localhost') {
-  host = 'kirishow.github.io';
+  host = 'bakatest.github.io';
 }
 
 var disqus_url = window.location.protocol + '//' + host + window.location.pathname.replace('/index.html', ''); // forum url
